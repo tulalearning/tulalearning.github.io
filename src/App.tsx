@@ -1,8 +1,10 @@
+import constructionImage from './assets/onDev.jpg'
+
 function App() {
   return (
     <div style={{ textAlign: 'center' }}>
       <img
-        src="../public/assets/under_construction.jpg"
+        src={constructionImage}
         alt="Under Construction Page"
         style={{ width: '50%', objectFit: 'cover' }}
       />
