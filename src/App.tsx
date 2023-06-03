@@ -1,15 +1,10 @@
-import constructionImage from './assets/onDev.jpg'
+import UnderConstruction from './pages/UnderConstruction'
 
 function App() {
   return (
-    <div style={{ textAlign: 'center' }}>
-      <h1>Hi, I'm</h1>
-      <img
-        src={constructionImage}
-        alt="Under Construction Page"
-        style={{ width: '50%', objectFit: 'cover' }}
-      />
-    </div>
+    <>
+      <UnderConstruction />
+    </>
   )
 }
 
