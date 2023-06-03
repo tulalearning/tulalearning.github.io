@@ -1,6 +1,6 @@
 import { Box } from '@mui/system'
 import constructionImage from '../assets/onDev.jpg'
-import NavbarComponent from '../components/NavBarComponent'
+import NavbarComponent from '../components/NavbarComponent'
 
 const UnderConstruction = () => {
   return (
